@@ -1,0 +1,48 @@
+/*
+ *  _____ _______         _                      _
+ * |_   _|__   __|       | |                    | |
+ *   | |    | |_ __   ___| |___      _____  _ __| | __  ___ ____
+ *   | |    | | '_ \ / _ \ __\ \ /\ / / _ \| '__| |/ / / __|_  /
+ *  _| |_   | | | | |  __/ |_ \ V  V / (_) | |  |   < | (__ / /
+ * |_____|  |_|_| |_|\___|\__| \_/\_/ \___/|_|  |_|\_(_)___/___|
+ *                   ___
+ *                  |  _|___ ___ ___
+ *                  |  _|  _| -_| -_|  LICENCE
+ *                  |_| |_| |___|___|
+ *
+ * IT ZPRAVODAJSTVÍ  <>  PROGRAMOVÁNÍ  <>  HW A SW  <>  KOMUNITA
+ *
+ * Tento zdrojový kód pochází z IT sociální sítě WWW.ITNETWORK.CZ
+ *
+ * Můžete ho upravovat a používat jak chcete, musíte však zmínit
+ * odkaz na http://www.itnetwork.cz
+ */
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: blue;
+}
+
+label {
+    display: block;
+    clear: both;
+    margin: 10px 0;
+}
+
+label > input {
+    float: right;
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
